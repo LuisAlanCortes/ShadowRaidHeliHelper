@@ -1,1 +1,15 @@
-modinfo
+{
+	"name" : "Shadow Raid Heli Helper",
+	"description" : "Chat alerts for Shadow Raid helicopter",
+	"author" : "JustStealthy",
+	"contact" : "Discord: JustStealthy",
+	"version" : "1",
+	"blt_version" : 2,
+	"priority" : 100,
+	"hooks" : [
+		{ 
+			"hook_id" : "lib/managers/dialogmanager",
+			"script_path" : "dialogmanager.lua"
+		}
+	]
+}
